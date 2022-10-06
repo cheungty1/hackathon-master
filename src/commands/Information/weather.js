@@ -72,7 +72,7 @@ const getImageUrl = (description) => {
       imageUrl = "https://i.imgur.com/aQAm7Us.png";
       return imageUrl;
     default:
-      imageUrl = "null";
+      imageUrl = null;
       return imageUrl;
   }
 };
