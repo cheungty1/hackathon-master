@@ -3,6 +3,7 @@ const axios = require("axios");
 const { EmbedBuilder } = require("discord.js");
 async function getWeather(query) {
   try {
+  // go weather api call
     const weather = await axios.get(
       `https://goweather.herokuapp.com/weather/${query}`
     );
