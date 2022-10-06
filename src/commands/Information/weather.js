@@ -46,7 +46,7 @@ const weatherSymbol = (description) => {
       symbol = "🌞";
       return symbol;
     default:
-      symbol = "";
+      symbol = "✨";
       return symbol;
   }
 };
@@ -72,7 +72,7 @@ const getImageUrl = (description) => {
       imageUrl = "https://i.imgur.com/aQAm7Us.png";
       return imageUrl;
     default:
-      imageUrl = "";
+      imageUrl = "null";
       return imageUrl;
   }
 };
