@@ -87,7 +87,7 @@ module.exports = {
         .setRequired(true)
     ),
   async execute(interaction) {
-    const query = interaction.options.getString("location"); //gets input
+    const query = interaction.options.getString("location");
     const {
       data: { temperature, wind, description, forecast },
     } = await getWeather(query);
